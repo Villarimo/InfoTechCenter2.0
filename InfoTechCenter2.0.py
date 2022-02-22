@@ -21,7 +21,7 @@ def gasLevelAlert():
     elif gasLevelIndicator == "Low":
         print("***WARNING***\n YOUR TANK IS LOW\n The closest service station is " + random.choice(gasStations) + " which is " + str(miles) + " miles away!")
     elif gasLevelIndicator == "Quarter Tank":
-        print("You have a Quarter Tank of gas left\n Start planning to travel to a service station!!!")
+        print("You have a Quarter Tank of gas left\n Start planning to travel to a service station")
     elif gasLevelIndicator == "Half Tank":
         print("You have half a tank of gas left\n You have 125 more miles to empty")
     elif gasLevelIndicator == "Three Quarter Tank":
