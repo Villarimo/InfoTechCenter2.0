@@ -13,7 +13,7 @@ weatherAlert = weather()
 
 def vehicleResponseSystem():
     if weatherAlert == "Icy":
-        print("\n VRS has changed your alarm 30 minutes earlier\n based on the NWS", weatherAlert)
+        print("\n \033[1;31;40m VRS has changed your alarm 30 minutes earlier\n based on the NWS", weatherAlert)
         print(" VRS will only allow your car to go 30MPH")
     elif weatherAlert == "Snowy":
         print("\n VRS has changed your alarm 15 minutes earlier\n based on the NWS", weatherAlert)
