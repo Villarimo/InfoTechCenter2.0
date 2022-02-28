@@ -1,7 +1,7 @@
 # Code Name - Hornet
 
 import random
-from time import sleep #Print to one line with time delay between prints
+from time import sleep #Print to one line with time delay between p
 
 # Welcome Branch
 print("\033[1;34;40m Welcome to Hornets InfoTechCenter\n")
@@ -47,7 +47,6 @@ gasLevelAlert()
 
 # Weather Branch
 
-import random
 
 
 def weather():
